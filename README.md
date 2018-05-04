@@ -1,4 +1,4 @@
 # learn
 learn git
-branch test
+t test
 master test
