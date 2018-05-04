@@ -23,7 +23,7 @@ import java.util.Map;
  */
 public class FreeMakerGen {
 
-   private final static String DIR_PATH = "D:\\lazy\\tooltest\\src\\main\\resources\\templates" ;
+   private final static String DIR_PATH = "D:\\lazy\\gitTry\\demo\\src\\main\\resources\\templates" ;
 
     public static void genGeneratorConfig(String templateName,String packageName,String outPath,String[] tablesNames) throws IOException, TemplateException {
 

@@ -23,7 +23,7 @@ public class mybatisCreator {
 
 
     public static final String FREEMAKER_TEMPL_NAME="generatorConfig.ftl";
-    public static final String TEMPL_OUT_NAME ="D:\\lazy\\tooltest\\src\\main\\resources\\generatorConfig.xml";
+    public static final String TEMPL_OUT_NAME ="D:\\lazy\\gitTry\\demo\\src\\main\\resources\\generatorConfig.xml";
     public static void main(String[] args) {
         try {
 
@@ -53,8 +53,9 @@ public class mybatisCreator {
     private static void createBasicMybatisFiles(String rootDirectory) {
         List<String> warnings = new ArrayList<String>();
         try {
+            //D:\lazy\gitTry\demo\src\main\resources\generatorConfig.xml
             //D:\Codes\zhongxiaoyu\dst\branchForTest\tooltest\src\main\resources\generatorConfig.xml
-            String configFilePath = rootDirectory+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"generatorConfig.xml";
+            String configFilePath = rootDirectory+File.separator+"demo"+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"generatorConfig.xml";
             boolean overwrite = true;
             File configFile = new File(configFilePath);
             ConfigurationParser cp = new ConfigurationParser(warnings);
