@@ -54,7 +54,7 @@ public class mybatisCreator {
         List<String> warnings = new ArrayList<String>();
         try {
             //D:\lazy\gitTry\demo\src\main\resources\generatorConfig.xml
-            //D:\Codes\zhongxiaoyu\dst\branchForTest\tooltest\src\main\resources\generatorConfig.xml
+            //D:\Codes\zhongxiaoyu\test\est\tooltest\src\main\resources\generatorConfig.xml
             String configFilePath = rootDirectory+File.separator+"demo"+File.separator+"src"+File.separator+"main"+File.separator+"resources"+File.separator+"generatorConfig.xml";
             boolean overwrite = true;
             File configFile = new File(configFilePath);
