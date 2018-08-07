@@ -31,11 +31,11 @@ public class mybatisCreator {
             String rootDirectory = getRootPath();
             // rootDirectory = "D:\\lazy\\Mybatis_Generator" ;
             String[] tablesNames = new String[]{"repay","loan_info"};
-            String packageName = "com.tuniu.pay.dst";
+            String packageName = "com.zxy.test.test";
             FreeMakerGen.genGeneratorConfig(FREEMAKER_TEMPL_NAME,packageName,TEMPL_OUT_NAME,tablesNames);
 
             String sourcePath = getPackagePath(rootDirectory,"src",packageName);
-            String savePackageName = "com.tuniu.pay.dst";
+            String savePackageName = "com.zxy.test.test";
             String savePath = getPackagePath(rootDirectory,"MVCFile",savePackageName);
 /*		exeCmd("java -jar "+rootDirectory+File.separator+"lib"+File.separator+"mybatis-generator-core-1.3.1.jar -configfile "
 				+rootDirectory+File.separator+"src"+File.separator+"generatorConfig.xml -overwrite");
